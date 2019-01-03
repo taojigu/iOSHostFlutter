@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <Flutter/Flutter.h>
+#import <HelloFlutterPlugin.h>
 
 @interface ViewController ()
 
@@ -22,6 +23,7 @@
 
 - (IBAction)pushFlutterButtonClicked:(id)sender {
     FlutterViewController *fvc = [[FlutterViewController alloc] init];
+    [HelloFlutterPlugin registerWithBinaryMessenger:fvc];
     [self.navigationController pushViewController:fvc animated:YES];
 }
 

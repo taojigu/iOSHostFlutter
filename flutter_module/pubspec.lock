@@ -50,8 +50,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: HEAD
-      resolved-ref: b2c11158bee105739d39e795efb5786e19eaae7b
+      ref: master
+      resolved-ref: "97cd308cc5f6aaeed479f01233f3c2e20de293e2"
       url: "https://github.com/taojigu/hello_flutter_plugin"
     source: git
     version: "0.0.1"
